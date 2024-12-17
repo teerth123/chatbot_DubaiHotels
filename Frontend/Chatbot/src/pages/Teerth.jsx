@@ -33,7 +33,7 @@ export default function Teerth() {
             {
               parts: [
                 {
-                  text: `Here are some hotels I found for you:\n${hotels}\n\nYour query: ${que}`,
+                  text: `Here are some hotels I found for you:\n${hotels}\n\nYour query: ${que} always compare prices`,
                 },
               ],
             },
