@@ -12,9 +12,9 @@ export default function Teerth() {
   // Predefined options
   const predefinedOptions = [
     "Best hotels under $100 in Goa",
-    "Top-rated hotels near the beach",
-    "Hotels with free breakfast in Goa",
-    "Luxury hotels in Goa with gym",
+    "Top-rated hotels near the north goa",
+    "cheapest Hotels in Goa",
+    "Hotels for family trip in Goa ",
   ];
 
   // Function to send predefined options as a query
@@ -122,7 +122,7 @@ export default function Teerth() {
           )}
 
           {/* Message Display */}
-          <div className="flex-grow overflow-y-auto p-4 space-y-3">
+          <div className="flex-grow overflow-y-auto p-4 space-y-3 w-[25vw] h-[25vw] ">
             {arr.map((msg, index) => (
               <div
                 key={index}
@@ -140,12 +140,12 @@ export default function Teerth() {
           {/* Compare Prices Button */}
           {arr.length > 0 && (
             <div className="p-3 flex justify-center border-t">
-              <button
+              {/* <button
                 onClick={() => alert("Compare logic goes here")}
                 className="bg-blue-500 text-white px-4 py-2 rounded-lg hover:bg-blue-600 transition"
               >
                 Compare Prices
-              </button>
+              </button> */}
             </div>
           )}
 
